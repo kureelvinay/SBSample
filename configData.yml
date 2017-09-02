@@ -4,8 +4,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kureelvinay/SBSample/edit/master/
-          searchPaths: ConfigData
+          uri: https://github.com/kureelvinay/
+          searchPaths: SBSample
         # "native" is used when the native profile is active, for local tests with a classpath repo:
         native:
           searchLocations: classpath:offline-repository/
